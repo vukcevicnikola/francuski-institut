@@ -19242,3 +19242,10 @@ html:not([dir=rtl]) .range-slider-ui.noUi-horizontal .noUi-handle {
   bottom: 100%;
   flex-direction: column-reverse;
 }
+
+@media screen and (max-width: 768px) {
+  body > main > section.d-flex.min-vh-100.mb-lg-6.mb-5.pt-lg-6.pt-5.jarallax.bg-secondary > div > div > div.col-md-6.col-sm-10.order-md-1.order-1.mx-md-0.mx-auto.mb-md-0.mb-5 > img {
+    width: 70%;
+    margin: auto;
+  }
+}
